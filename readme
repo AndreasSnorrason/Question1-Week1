@@ -1,0 +1,10 @@
+Exercise 2:
+
+Explain what happens?
+
+Når trådene ikke er synkroniseret, kan der i metoden ske det, at begge tråde arbejder med metoden inden der sker et print.
+Da metoden tæller op over to omgange, vil en af trådene kunne tælle en enkelt gang, hvorefter den anden tråd kan fortsætte med
+at tælle, og der vil derfor forekomme et ulige tal.
+
+How common is the problem?
+Man kan ikke foresige hvornår der sker et problem, da det altid kan ske.
